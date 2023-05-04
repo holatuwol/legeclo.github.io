@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unitselector.css">
+    <link rel="stylesheet" href="css/unitinfo.css">
+    <link rel="stylesheet" href="css/skilldetail.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/vs2015.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Test DB<br>Filter</h1>
+        <div id="filter-container" class="filter-container"></div>
+        <div id="language-container">
+            <button id="jp-button">JP</button>
+            <button id="en-button" disabled>EN</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div id="unit-icons" class="unit-icons"></div>
+        </div>
+        <div class="unitinfo">
+            <div id="unit-details" class="unit-details"></div>
+        </div>
+    </div>
+    <div id="skill-json" class="json"></div>
+    <script src="js/filter.js"></script>
+    <script src="js/unit.js"></script>
+    <script src="js/function_etc.js"></script>
+    <script src="js/function_unit.js"></script>
+
+
+</body>
+</html>

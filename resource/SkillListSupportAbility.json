@@ -1,0 +1,6923 @@
+{
+	"2100001": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "大蛇薙",
+		"Icon": "sk_sa001",
+		"Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与える。対象が「ソルジャー」の時、威力が上がる。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.25/0.25/0.25/0.3/0.4/0.5倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大蛇薙"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				],
+				"Effect_SlayerType": [
+					"Soldier",
+					"50",
+					"60",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		}
+	},
+	"2100002": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "サンライト・ハーモニー",
+		"Icon": "sk_sa002",
+		"Explanation": "範囲内の全ての味方ユニットの弱化効果を2個解除し、アタック+20%/20%/20%/22%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+20%/20%/20%/22%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"サンライト・ハーモニー"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"20",
+					"20",
+					"20",
+					"22",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100003": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "第三の目、開眼",
+		"Icon": "sk_sa003",
+		"Explanation": "敵ユニット1隊に「スタン(1ターン)」を付与し、1/1/1/1.1/1.2/1.3倍のダメージを与える。更にランダムな弱化効果を2個付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "行動ができない状態。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"第三の目、開眼"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"100",
+					"100",
+					"110",
+					"120",
+					"130"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "Stun",
+				"Effect_PersistentActionCount": "1"
+			},
+			"Index3": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"2:ランダムデバフ（中）",
+					"2:ランダムデバフ（中）",
+					"2:ランダムデバフ（中）",
+					"2:ランダムデバフ（中）",
+					"2:ランダムデバフ（中）",
+					"2:ランダムデバフ（中）"
+				]
+			}
+		}
+	},
+	"2100004": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "グングニル",
+		"Icon": "sk_sa004",
+		"Explanation": "敵ユニット1隊に1/1.1/1.2/1.3/1.4/1.5倍のダメージを与え、「HP回復不可(2ターン)」を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "HP回復ができない状態。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"グングニル"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140",
+					"150"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "InvalidateHeal",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100005": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "魂冥支配の天秤",
+		"Icon": "sk_sa005",
+		"Explanation": "範囲内の全ての味方ユニットの弱化効果を1/1/1/1/1/2個解除し、HPをサポートのマジックの4/4/4/4.5/5/5倍回復する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ユニットの弱化効果を1/1/1/2/2/2つ解除する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"魂冥支配の天秤"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"2"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"400",
+					"400",
+					"400",
+					"450",
+					"500",
+					"500"
+				]
+			}
+		}
+	},
+	"2100006": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "錬石補天",
+		"Icon": "sk_sa006",
+		"Explanation": "範囲内の全ての敵ユニットのディフェンス-15%/15%/15%/20%/25%/30%、レジスト-15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"錬石補天"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"錬石補天"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100007": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ムーンライト・セレナーデ",
+		"Icon": "sk_sa007",
+		"Explanation": "範囲内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍の範囲ダメージを与える。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ムーンライト・セレナーデ"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"70",
+					"70",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		}
+	},
+	"2100008": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天照羽衣",
+		"Icon": "sk_sa008",
+		"Explanation": "範囲内の全ての味方ユニットのアタック+15%/15%/15%/20%/25%/30%、ディフェンス+15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天照羽衣"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天照羽衣"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100009": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "トールハンマー",
+		"Icon": "sk_sa009",
+		"Explanation": "敵ユニット1隊に0.9/1/1.1/1.2/1.3/1.4倍のダメージを与え、強化効果を1/1/1/2/2/2個解除する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "0.9/1/1.1/1.2/1.3/1.4倍のダメージ",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"トールハンマー"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"90",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"1",
+					"1",
+					"1",
+					"2",
+					"2",
+					"2"
+				]
+			}
+		}
+	},
+	"2100010": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "トリック・ストライク",
+		"Icon": "sk_sa010",
+		"Explanation": "敵ユニット1隊に0.7/0.8/0.9/1/1.1/1.2倍のダメージを与える。対象が「ライダー」の時、威力が上がる。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "0.7/0.8/0.9/1/1.1/1.2倍のダメージ",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"トリック・ストライク"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"70",
+					"80",
+					"90",
+					"100",
+					"110",
+					"120"
+				],
+				"Effect_SlayerType": [
+					"Rider",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140",
+					"150"
+				]
+			}
+		}
+	},
+	"2100011": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "玄武護甲陣",
+		"Icon": "sk_sa011",
+		"Explanation": "範囲内の全ての味方ユニットのディフェンス+20%/20%/22%/22%/25%/30%(2/2/2/3/3/3ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+20%/20%/22%/22%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"玄武護甲陣"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"20",
+					"20",
+					"22",
+					"22",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100012": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "韋駄天走り",
+		"Icon": "sk_sa012",
+		"Explanation": "自ユニットのアタック+10%/10%/15%/20%/25%/25%、移動+1(2/2/2/2/2/3ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+10%/10%/15%/20%/25%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"韋駄天走り"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10",
+					"10",
+					"15",
+					"20",
+					"25",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動+1。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"韋駄天走り"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100013": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "セイクリッド・ブレス",
+		"Icon": "sk_sa013",
+		"Explanation": "範囲内の全ての味方ユニットの弱化効果を1/1/1/2/2/2つ解除し、HPをサポートのマジックの2.5/3/3.5/3.5/4/4.5倍回復する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ユニットの弱化効果を1/1/1/2/2/2つ解除する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"セイクリッド・ブレス"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"1",
+					"1",
+					"1",
+					"2",
+					"2",
+					"2"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"250",
+					"300",
+					"350",
+					"350",
+					"400",
+					"450"
+				]
+			}
+		}
+	},
+	"2100014": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "タイダルウェイブ",
+		"Icon": "sk_sa014",
+		"Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与える。対象が「ランサー」の時、威力が上がる。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "MagicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与える。対象が「ランサー」の時、威力が上がる。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ダイダルウェイブ"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				],
+				"Effect_SlayerType": [
+					"Lancer",
+					"50",
+					"60",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		}
+	},
+	"2100015": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "這い寄る混沌",
+		"Icon": "sk_sa015",
+		"Explanation": "自ユニットのレジスト+5%/10%/10%/15%/15%/20%、ディフェンス+5%/10%/10%/15%/15%/20%(2/2/2/3/3/3ターン)。自身を中心とした範囲5マス以内の味方ユニット1/1/2/2/3/3隊にランダムな強化効果を1個付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト+5%/10%/10%/15%/15%/20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"這い寄る混沌"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"5",
+					"10",
+					"10",
+					"15",
+					"15",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+5%/10%/10%/15%/15%/20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"這い寄る混沌"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5",
+					"10",
+					"10",
+					"15",
+					"15",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ランダムな強化効果を1個付与する。",
+			"Effect_Target": [
+				"Ally_NUnit",
+				"1",
+				"1",
+				"2",
+				"2",
+				"3",
+				"3"
+			],
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"5",
+				"5",
+				"5",
+				"5",
+				"5",
+				"5"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"這い寄る混沌"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムバフ（中）",
+					"1:ランダムバフ（中）",
+					"1:ランダムバフ（中）",
+					"1:ランダムバフ（中）",
+					"1:ランダムバフ（中）",
+					"1:ランダムバフ（中）"
+				]
+			}
+		}
+	},
+	"2100016": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天導の聖火",
+		"Icon": "sk_sa016",
+		"Explanation": "自ユニットのアタック+5%/10%/15%/20%/25%/25%、通常攻撃の射程+1、アクティブによる「アタックダウン」、アクティブによる「ディフェンスダウン」を無効(2/2/2/2/2/3ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+5%/10%/15%/20%/25%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天導の聖火"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5",
+					"10",
+					"15",
+					"20",
+					"25",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "通常攻撃の射程+1。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "None",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MainRange",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブによる「アタックダウン」を無効。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "None",
+			"Index1": {
+				"Effect_Category": "Invalidate",
+				"Effect_CategoryDetail": "PhysicalAttackDeBuff",
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect4": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブによる「ディフェンスダウン」を無効。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "None",
+			"Index1": {
+				"Effect_Category": "Invalidate",
+				"Effect_CategoryDetail": "PhysicalDefenceDeBuff",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100017": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天女の兵法",
+		"Icon": "sk_sa017",
+		"Explanation": "味方ユニット1隊に「メインが「ソルジャー/ランサー/ライダー」の敵ユニットと戦闘時、自ユニットの与ダメージ+15%/20%/25%/30%/35%/40%。」の効果(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "メインが「ソルジャー/ランサー/ライダー」の敵ユニットと戦闘時、自ユニットの与ダメージ+15%/20%/25%/30%/35%/40%。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天女の兵法"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"参照しない（小項目にスキルを設定）",
+					"9210001701:1",
+					"9210001701:2",
+					"9210001701:3",
+					"9210001701:4",
+					"9210001701:5",
+					"9210001701:6"
+				]
+			}
+		}
+	},
+	"2100018": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "白虎爪乱撃",
+		"Icon": "sk_sa018",
+		"Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージ。自ユニットのダメージ耐性+20%/20%/25%/25%/30%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/7.5倍の範囲ダメージ。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Index1": {
+				"Effect_DirectinType": [
+					"UniqueEffectOnly",
+					"白虎爪乱撃"
+				],
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+20%/20%/25%/25%/30%/30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"20",
+					"20",
+					"25",
+					"25",
+					"30",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100019": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "火竜の吐息",
+		"Icon": "sk_sa019",
+		"Explanation": "敵ユニット1隊のアタック-5%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-5%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"火竜の吐息"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-5",
+					"-10",
+					"-13",
+					"-16",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100020": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ヴィグネーシュヴァラ",
+		"Icon": "sk_sa020",
+		"Explanation": "敵ユニット1隊のマジック-5%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック-5%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ヴィグネーシュヴァラ"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-5",
+					"-10",
+					"-13",
+					"-16",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100021": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "キャットダンス",
+		"Icon": "sk_sa021",
+		"Explanation": "敵ユニット1隊のディフェンス-5%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-5%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"キャットダンス"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-5",
+					"-10",
+					"-13",
+					"-16",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100022": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "マーメイドソング",
+		"Icon": "sk_sa022",
+		"Explanation": "味方ユニット1隊に「行動終了時、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%/12%/14%/16%/18%/20%分回復する」効果(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "行動終了時、メイン、サポートそれぞれのHPを最大HPの10%/12%/14%/16%/18%/20%分回復する。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"マーメイドソング"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"1",
+					"9210002201:1",
+					"9210002201:2",
+					"9210002201:3",
+					"9210002201:4",
+					"9210002201:5",
+					"9210002201:6"
+				]
+			}
+		}
+	},
+	"2100023": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "優しき湖の雫",
+		"Icon": "sk_sa023",
+		"Explanation": "味方ユニット1隊の弱化効果を1/1/1/2/2/2個解除し、HPをサポートのマジックの3/3.5/4/4/4.5/5倍回復する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "味方ユニット1隊の弱化効果を1/1/1/2/2/2個解除し、HPをサポートのマジックの3/3.5/4/4/4.5/5倍回復する。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"優しき湖の雫"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"1",
+					"1",
+					"1",
+					"2",
+					"2",
+					"2"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"300",
+					"350",
+					"400",
+					"400",
+					"450",
+					"500"
+				]
+			}
+		}
+	},
+	"2100024": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "朝露のきらめき",
+		"Icon": "sk_sa024",
+		"Explanation": "範囲内の全ての味方ユニットのHPをサポートのマジックの1.5/2/2.3/2.6/3/3.5倍回復する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての味方ユニットのHPをサポートのマジックの1.5/2/2.3/2.6/3/3.5倍回復する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"朝露のきらめき"
+			],
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"150",
+					"200",
+					"230",
+					"260",
+					"300",
+					"350"
+				]
+			}
+		}
+	},
+	"2100025": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "メイドのお掃除",
+		"Icon": "sk_sa025",
+		"Explanation": "敵ユニット1隊のレジスト-5%/10%/15%/18%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-5%/10%/15%/18%/20%/25%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"メイドのお掃除"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-5",
+					"-10",
+					"-15",
+					"-18",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100026": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ラブリーコール",
+		"Icon": "sk_sa026",
+		"Explanation": "味方ユニット1隊のアタック+10%/12%/14%/16%/18%/20%、クリティカル率+10%/12%/14%/16%/18%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+10%/12%/14%/16%/18%/20%。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ラブリーコール"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10",
+					"12",
+					"14",
+					"16",
+					"18",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "クリティカル率+10%/12%/14%/16%/18%/20%。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ラブリーコール"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10",
+					"12",
+					"14",
+					"16",
+					"18",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100027": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "蛇神の宴",
+		"Icon": "sk_sa027",
+		"Explanation": "敵ユニット1隊の強化効果を2個解除し、確率(10%/30%/50%/70%/85%/100%)でランダムな弱化効果を1個付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ユニット1体の強化効果を2つ解除する。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"蛇神の宴"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ユニット1体の強化効果を2つ解除する。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Percentage": [
+					"TriggerRate",
+					"10",
+					"30",
+					"50",
+					"70",
+					"85",
+					"100"
+				],
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムデバフ（弱）",
+					"1:ランダムデバフ（弱）",
+					"1:ランダムデバフ（弱）",
+					"1:ランダムデバフ（弱）",
+					"1:ランダムデバフ（弱）",
+					"1:ランダムデバフ（弱）"
+				]
+			}
+		}
+	},
+	"2100028": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "暗き水の怨嗟",
+		"Icon": "sk_sa028",
+		"Explanation": "味方ユニット1隊のクリティカル率+5%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "クリティカル率+5%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Ally_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"暗き水の怨嗟"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"5",
+					"10",
+					"13",
+					"16",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100029": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "青龍封縛占",
+		"Icon": "sk_sa029",
+		"Explanation": "範囲内の全ての敵ユニットのアタック-10%/10%/13%/16%/20%/25%、マジック-10%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-10%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"青龍封縛占"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-10",
+					"-10",
+					"-13",
+					"-16",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック-10%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"青龍封縛占"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-10",
+					"-10",
+					"-13",
+					"-16",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100030": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天使の魔眼",
+		"Icon": "sk_sa030",
+		"Explanation": "自身を中心とした範囲3マス以内の敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与え、強化効果を1個解除する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "自身を中心とした範囲3マス以内の敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与え、強化効果を1個解除する。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天使の魔眼"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				]
+			}
+		}
+	},
+	"2100031": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "戦乙女の行進",
+		"Icon": "sk_sa031",
+		"Explanation": "範囲内の全ての敵ユニットのディフェンス-10%/10%/12%/14%/16%/20%、レジスト-10%/10%/12%/14%/16%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"戦乙女の行進"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100032": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "月下千本槍",
+		"Icon": "sk_sa032",
+		"Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与え、追加でツクヨミのアタックの1/1.2/1.5/1.8/2.1/2.5倍の固定ダメージを与える。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"月下千本槍"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ツクヨミのアタックの1/1.2/1.5/1.8/2.1/2.5倍の固定ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"月下千本槍"
+			],
+			"Index1": {
+				"Effect_Category": "FixedDamage",
+				"Effect_CategoryDetail": [
+					"Support_PhysicalAttack",
+					"100",
+					"120",
+					"150",
+					"180",
+					"210",
+					"250"
+				]
+			}
+		}
+	},
+	"2100033": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "破壊魔法アムムト",
+		"Icon": "sk_sa034",
+		"Explanation": "敵ユニット1隊に1/1.1/1.2/1.3/1.4/1.5倍のダメージを与える。対象が「シューター」の時、威力が上がる。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "MagicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "1/1.1/1.2/1.3/1.4/1.5倍のダメージ",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"破壊魔法アムムト"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140",
+					"150"
+				],
+				"Effect_SlayerType": [
+					"Shooter",
+					"130",
+					"140",
+					"150",
+					"160",
+					"170",
+					"180"
+				]
+			}
+		}
+	},
+	"2100034": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ナイルの賜物",
+		"Icon": "sk_sa035",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての味方ユニットのHPをサポートのマジックの2.5/3/3.5/4/4.5/4.5倍回復し、ランダムな強化効果を1/1/1/1/1/2個付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "自身を中心とした範囲3マス以内の敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与え、強化効果を1個解除する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ナイルの賜物"
+			],
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"250",
+					"300",
+					"350",
+					"400",
+					"450",
+					"450"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムバフ（強）",
+					"1:ランダムバフ（強）",
+					"1:ランダムバフ（強）",
+					"1:ランダムバフ（強）",
+					"1:ランダムバフ（強）",
+					"2:ランダムバフ（強）"
+				]
+			}
+		}
+	},
+	"2100035": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ライトニングハウル",
+		"Icon": "sk_sa036",
+		"Explanation": "範囲内の全ての敵ユニットのディフェンス-10%/10%/10%/15%/20%/25%、レジスト-10%/10%/10%/15%/20%/25%、移動-1(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-10%/10%/10%/15%/20%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ライトニングハウル"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10",
+					"-10",
+					"-10",
+					"-15",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-10%/10%/10%/15%/20%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ライトニングハウル"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10",
+					"-10",
+					"-10",
+					"-15",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動-1。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ライトニングハウル"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"-1",
+					"-1",
+					"-1",
+					"-1",
+					"-1",
+					"-1"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100036": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "月に寄せる歌",
+		"Icon": "sk_sa037",
+		"Explanation": "範囲内の全ての味方ユニットに「味方ターンでの戦闘時、その戦闘後、味方メインが与えたダメージの15%/15%/15%/20%/25%/30%分HPを回復する」効果(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "味方ターンでの戦闘時、その戦闘後、味方メインが与えたダメージの15%/15%/15%/20%/25%/30%分HPを回復する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"月に寄せる歌"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"1",
+					"9210003601:1",
+					"9210003601:2",
+					"9210003601:3",
+					"9210003601:4",
+					"9210003601:5",
+					"9210003601:6"
+				]
+			}
+		}
+	},
+	"2100037": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "信じる光",
+		"Icon": "sk_sa038",
+		"Explanation": "範囲内の全ての味方ユニットのディフェンス+15%/15%/15%/20%/25%/30%、レジスト+15/15/15/20/25/30％、アクティブによる位置移動無効(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"信じる光"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"信じる光"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブによる「位置移動」無効。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Index1": {
+				"Effect_Category": "Invalidate",
+				"Effect_CategoryDetail": "Teleport",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100038": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ファティリティ・デイズ",
+		"Icon": "sk_sa039",
+		"Explanation": "範囲内の全ての敵ユニットのアタック-10%/10%/12%/14%/16%/20%、マジック-10%/10%/12%/14%/16%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ファティリティ・デイズ"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100039": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "救世千手",
+		"Icon": "sk_sa040",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍の範囲ダメージを与える。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"救世千手"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"70",
+					"70",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		}
+	},
+	"2100040": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ショコラコーティング",
+		"Icon": "sk_sa041",
+		"Explanation": "範囲内の全ての味方ユニットのアタック+15%/15%/15%/20%/25%/30%、ダメージ耐性+15/15/15/20/25/30％(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ショコラコーティング"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ショコラコーティング"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100041": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "祝福のぬくもり",
+		"Icon": "sk_sa042",
+		"Explanation": "範囲内の全ての味方ユニットのアタック+15%/15%/15%/20%/25%/30%、マジック+15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"祝福のぬくもり"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"祝福のぬくもり"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100042": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ビクトリーロード",
+		"Icon": "sk_sa043",
+		"Explanation": "敵ユニット1隊に1/1/1/1.1/1.2/1.3倍のダメージを与え、「アクティブスキル使用不可(1ターン)」、「パッシブスキル使用不可(1ターン)」を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ユニット1隊に1/1/1/1.1/1.2/1.3倍のダメージ。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ビクトリーロード"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"100",
+					"100",
+					"110",
+					"120",
+					"130"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブスキルが使用できない状態。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ビクトリーロード"
+			],
+			"Index1": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "UnableToUseActiveSkill",
+				"Effect_PersistentActionCount": "1"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "パッシブスキルが使用できない状態。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ビクトリーロード"
+			],
+			"Index1": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "UnableToUsePassiveSkill",
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2100043": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "精一杯の誘惑",
+		"Icon": "sk_sa044",
+		"Explanation": "範囲内の全ての敵ユニットに「敵ターンでの戦闘時、その戦闘前、自ユニットのダメージ耐性-10%/10%/12%/14%/16%/20%」の効果(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ターンでの戦闘時、その戦闘前、自ユニットのダメージ耐性-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"精一杯の誘惑"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"1",
+					"9210004301:1",
+					"9210004301:2",
+					"9210004301:3",
+					"9210004301:4",
+					"9210004301:5",
+					"9210004301:6"
+				]
+			}
+		}
+	},
+	"2100044": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "飲み比べなら負けないよ～？",
+		"Icon": "sk_sa045",
+		"Explanation": "敵ユニット1隊に1/1.1/1.2/1.3/1.4/1.5倍のダメージを与え、「パッシブ使用不可」を与える(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ユニット1隊に1/1.1/1.2/1.3/1.4/1.5倍のダメージ。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"飲み比べなら負けないよ～？"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140",
+					"150"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "パッシブスキルが使用できない状態。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"飲み比べなら負けないよ～？"
+			],
+			"Index1": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "UnableToUsePassiveSkill",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100045": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "水分補給の時間なのです",
+		"Icon": "sk_sa046",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての味方ユニットに「行動終了時、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%/10%/10%/12%/15%/20%分回復する」効果(2ターン)を付与し、更にアクティブによる「回復不可」無効(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "行動終了時、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%/10%/10%/12%/15%/20%分回復する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"水分補給の時間なのです"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"参照しない（小項目にスキルを設定）",
+					"9210004501:1",
+					"9210004501:2",
+					"9210004501:3",
+					"9210004501:4",
+					"9210004501:5",
+					"9210004501:6"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブによる「回復不可」無効。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"水分補給の時間なのです"
+			],
+			"Index1": {
+				"Effect_Category": "Invalidate",
+				"Effect_CategoryDetail": "InvalidateHeal",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100046": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "聞き惚れる歌声",
+		"Icon": "sk_sa047",
+		"Explanation": "範囲内の全ての敵ユニットに0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与え、確率(50%)で「アクティブスキル使用不可(2ターン)」を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "MagicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "0.25/0.35/0.45/0.55/0.65/0.75倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"聞き惚れる歌声"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"25",
+					"35",
+					"45",
+					"55",
+					"65",
+					"75"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブスキルが使用できない状態。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"聞き惚れる歌声"
+			],
+			"Index1": {
+				"GrantedCondition_Percentage": [
+					"TriggerRate",
+					"50",
+					"50",
+					"50",
+					"50",
+					"50",
+					"50"
+				],
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "UnableToUseActiveSkill",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100047": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ワタシの歌でも励ませるのかな",
+		"Icon": "sk_sa048",
+		"Explanation": "自ユニットのマジック+10%/10%/13%/16%/20%/25%、ダメージ耐性+10%/10%/13%/16%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック+10%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ワタシの歌でも励ませるのかな"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"10",
+					"10",
+					"13",
+					"16",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+10%/10%/13%/16%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ワタシの歌でも励ませるのかな"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"10",
+					"10",
+					"13",
+					"16",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100048": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "嫉妬の炎",
+		"Icon": "sk_sa049",
+		"Explanation": "自身から直線範囲7マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍のダメージを与え、移動-2(1ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Straight",
+			"7",
+			"7",
+			"7",
+			"7",
+			"7",
+			"7"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "自身から直線範囲7マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍のダメージを与え、移動-2(1ターン)",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Straight",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"嫉妬の炎"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"70",
+					"70",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動-2。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Straight",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"嫉妬の炎"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"-2",
+					"-2",
+					"-2",
+					"-2",
+					"-2",
+					"-2"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2100049": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "大天使の反抗",
+		"Icon": "sk_sa050",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットのディフェンス-15%/15%/15%/20%/25%/30%、レジスト-15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大天使の反抗"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大天使の反抗"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100050": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "綺麗な花には毒がある",
+		"Icon": "sk_sa051",
+		"Explanation": "範囲内の全ての敵ユニットのダメージ耐性-5%/5%/8%/11%/15%/20%、被治療効果-10%/10%/20%/30%/40%/50%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性-5%/5%/8%/11%/15%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"綺麗な花には毒がある"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"-5",
+					"-5",
+					"-8",
+					"-11",
+					"-15",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "被治療効果-10%/10%/20%/30%/40%/50%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"綺麗な花には毒がある"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"TakenRecoveryAmount",
+					"-10",
+					"-10",
+					"-20",
+					"-30",
+					"-40",
+					"-50"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100051": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "主の裁きに従え",
+		"Icon": "sk_sa052",
+		"Explanation": "範囲内の全ての敵ユニットの物理ダメージ耐性-10%/10%/10%/15%/20%/25%(2ターン)、「HP回復不可(2ターン)」を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理ダメージ耐性-10%/10%/10%/15%/20%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"主の裁きに従え"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"-10",
+					"-10",
+					"-10",
+					"-15",
+					"-20",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "HP回復ができない状態。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"主の裁きに従え"
+			],
+			"Index1": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "InvalidateHeal",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100052": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "織姫の願い",
+		"Icon": "sk_sa053",
+		"Explanation": "範囲内の全ての味方ユニットのアタック+15%/15%/15%/20%/25%/30%、クリティカル率+10%/10%/10%/15%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"織姫の願い"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "クリティカル率+10%/10%/10%/15%/20%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"織姫の願い"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10",
+					"10",
+					"10",
+					"15",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100053": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "朱雀絶炎衝",
+		"Icon": "sk_sa033",
+		"Explanation": "範囲内の全ての敵ユニットに0.50/0.50/0.55/0.60/0.65/0.70倍の範囲ダメージを与える。自ユニットのアタック+10%/10%/12%/14%/16%/20%(2ターン)",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "0.50/0.50/0.55/0.60/0.65/0.70倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"朱雀絶炎衝"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"50",
+					"50",
+					"55",
+					"60",
+					"65",
+					"70"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"朱雀絶炎衝"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10",
+					"10",
+					"12",
+					"14",
+					"16",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100054": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "災いの箱よ、力をもたらせ",
+		"Icon": "sk_sa054",
+		"Explanation": "範囲内の全ての味方ユニットの弱化効果を2個解除し、マジック+20%/20%/20%/22%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック+20%/20%/20%/22%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"災いの箱よ、力をもたらせ"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"20",
+					"20",
+					"20",
+					"22",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100055": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "パラソル持ってビーチへゴー！",
+		"Icon": "sk_sa055",
+		"Explanation": "範囲内の全ての味方ユニットの物理与ダメージ+15%/15%/15%/20%/25%/30%、ディフェンス+15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理与ダメージ+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"パラソル持ってビーチへゴー！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalDamage",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"パラソル持ってビーチへゴー！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"20",
+					"25",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100056": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "理想郷は揺るがない",
+		"Icon": "sk_sa056",
+		"Explanation": "敵ユニット1隊に1/1/1.2/1.2/1.5/1.5倍のダメージを与え、ディフェンス-10%/10%/10%/12%/12%/15%、レジスト-10%/10%/10%/12%/12%/15%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "1/1/1.2/1.2/1.5/1.5倍のダメージを与える。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"理想郷は揺るがない"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"100",
+					"120",
+					"120",
+					"150",
+					"150"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-10%/10%/10%/12%/12%/15%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"理想郷は揺るがない"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10",
+					"-10",
+					"-10",
+					"-12",
+					"-12",
+					"-15"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-10%/10%/10%/12%/12%/15%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"理想郷は揺るがない"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10",
+					"-10",
+					"-10",
+					"-12",
+					"-12",
+					"-15"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100057": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "狩るなら当然、まとめて全部だ！",
+		"Icon": "sk_sa057",
+		"Explanation": "範囲内の全ての敵ユニットに0.65/0.7/0.75/0.8/0.85/0.9倍の範囲ダメージを与え、強化効果を1個解除する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.65/0.7/0.75/0.8/0.85/0.9倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"狩るなら当然、まとめて全部だ！"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"65",
+					"70",
+					"75",
+					"80",
+					"85",
+					"90"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				]
+			}
+		}
+	},
+	"2100058": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "バーチャルメイドの奉仕",
+		"Icon": "sk_sa058",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットのアタック-10%/10%/10%/13%/16%/20%、マジック-10%/10%/10%/13%/16%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-10%/10%/10%/13%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"バーチャルメイドの奉仕"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-10",
+					"-10",
+					"-10",
+					"-13",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック-10%/10%/10%/13%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"バーチャルメイドの奉仕"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-10",
+					"-10",
+					"-10",
+					"-13",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100059": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ドゥルガーの導き",
+		"Icon": "sk_sa059",
+		"Explanation": "範囲内の全ての味方ユニットのスキル与ダメージ+15%/15%/15%/18%/21%/25%、ダメージ耐性+15%/15%/15%/18%/21%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "スキル与ダメージ+15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ドゥルガーの導き"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ドゥルガーの導き"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100060": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "ここより先、生者を禁ず",
+		"Icon": "sk_sa060",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットのアタック-15%/15%/15%/20%/25%/30%、ディフェンス-15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ここより先、生者を禁ず"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"ここより先、生者を禁ず"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100061": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "愛され狼の咆哮",
+		"Icon": "sk_sa061",
+		"Explanation": "範囲内の全ての敵ユニットに0.65/0.7/0.75/0.8/0.85/0.9倍の範囲ダメージを与え、移動-2(1ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "MagicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.65/0.7/0.75/0.8/0.85/0.9倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"愛され狼の咆哮"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"65",
+					"70",
+					"75",
+					"80",
+					"85",
+					"90"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動-2。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"愛され狼の咆哮"
+			],
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"-2",
+					"-2",
+					"-2",
+					"-2",
+					"-2",
+					"-2"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2100062": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "パンプキン・マジック",
+		"Icon": "sk_sa062",
+		"Explanation": "範囲内の全ての敵ユニットのディフェンス-10%/10%/12%/14%/16%/20%、レジスト-10%/10%/12%/14%/16%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"パンプキン・マジック"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"パンプキン・マジック"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10",
+					"-10",
+					"-12",
+					"-14",
+					"-16",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100063": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "大天使の宴会芸",
+		"Icon": "sk_sa063",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットの強化効果を2個解除し、アタック-15%/15%/15%/20%/25%/30%、マジック-15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "強化効果を2個解除する。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大天使の宴会芸"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2",
+					"2"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大天使の宴会芸"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "マジック-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"大天使の宴会芸"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100064": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "人間嫌いな女神の粛清",
+		"Icon": "sk_sa064",
+		"Explanation": "自身を中心とした周囲2マス以内の全ての敵ユニットのディフェンス-15%/15%/15%/20%/25%/30%、レジスト-15%/15%/15%/20%/25%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Square",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"人間嫌いな女神の粛清"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-15%/15%/15%/20%/25%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Square",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"人間嫌いな女神の粛清"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-20",
+					"-25",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100065": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "雪解けに注意だぜぃ！！",
+		"Icon": "sk_sa065",
+		"Explanation": "範囲内の全ての敵ユニットの物理ダメージ耐性-15%/15%/15%/18%/21%/25%(2ターン)、アクティブによる「強化不可(2ターン)」を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理ダメージ耐性-15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"雪解けに注意だぜぃ！！"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アクティブによる強化ができない状態異常。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"雪解けに注意だぜぃ！！"
+			],
+			"Index1": {
+				"Effect_Category": "Abnormal",
+				"Effect_CategoryDetail": "InvalidateBuffByActive",
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100066": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "混沌のプレゼント",
+		"Icon": "sk_sa066",
+		"Explanation": "範囲内の全ての敵ユニットに0.5/0.5/0.55/0.6/0.65/0.7倍の範囲ダメージを与える。自ユニットの与ダメージ+10%/10%/12%/14%/16%/20%(2ターン)",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ユニットに0.5/0.5/0.55/0.6/0.65/0.7倍の範囲ダメージを与える",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"混沌のプレゼント"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"50",
+					"50",
+					"55",
+					"60",
+					"65",
+					"70"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "与ダメージ+10%/10%/12%/14%/16%/20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"混沌のプレゼント"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"10",
+					"10",
+					"12",
+					"14",
+					"16",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100067": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "聖なる夜の啓示",
+		"Icon": "sk_sa067",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットのディフェンス-15%/15%/15%/18%/21%/25%、レジスト-15%/15%/15%/18%/21%/25%(2ターン)、「敵ターンでの戦闘時、その戦闘前、自ユニットのダメージ耐性-10%」の効果(2ターン)を付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"聖なる夜の啓示"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"聖なる夜の啓示"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "敵ターンでの戦闘時、その戦闘前、自ユニットのダメージ耐性-10%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"聖なる夜の啓示"
+			],
+			"Index1": {
+				"Effect_Category": "GrantSkill",
+				"Effect_CategoryDetail": [
+					"1",
+					"9210006701:1",
+					"9210006701:2",
+					"9210006701:3",
+					"9210006701:4",
+					"9210006701:5",
+					"9210006701:6"
+				]
+			}
+		}
+	},
+	"2100068": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天使のホワイトクリスマス",
+		"Icon": "sk_sa068",
+		"Explanation": "自ユニットのアタック+12%/12%/15%/18%/21%/25%、ディフェンス+12%/12%/15%/18%/21%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+12%/12%/15%/18%/21%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天使のホワイトクリスマス"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"12",
+					"12",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+12%/12%/15%/18%/21%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天使のホワイトクリスマス"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"12",
+					"12",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100069": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "お姉ちゃんうさぎの抱擁",
+		"Icon": "sk_sa069",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての味方ユニットのアタック+15%/15%/15%/18%/21%/25%、ディフェンス+15%/15%/15%/18%/21%/25%、移動力+1(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+12%/12%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"お姉ちゃんうさぎの抱擁"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+12%/12%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"お姉ちゃんうさぎの抱擁"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動+1。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"お姉ちゃんうさぎの抱擁"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100070": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "塗りつぶしてあげる",
+		"Icon": "sk_sa070",
+		"Explanation": "敵ユニット1隊に1/1/1.1/1.2/1.3/1.4倍のダメージを与え、強化効果を1個解除する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "1/1/1.1/1.2/1.3/1.4倍のダメージを与える。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"塗りつぶしてあげる"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"MagnificationDamage",
+					"100",
+					"100",
+					"110",
+					"120",
+					"130",
+					"140"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				]
+			}
+		}
+	},
+	"2100071": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "全てを包みこむ愛",
+		"Icon": "sk_sa071",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての味方ユニットのHPをサポートのマジックの3.5/3.5/3.5/4/4.5/5倍回復し、スキル与ダメージ+15%/15%/15%/18%/23%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Heal",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "スキル与ダメージ+15%/15%/15%/18%/23%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"全てを包みこむ愛"
+			],
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"350",
+					"350",
+					"350",
+					"400",
+					"450",
+					"500"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"15",
+					"15",
+					"15",
+					"18",
+					"23",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100072": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "幸せになってほしいのら〜！",
+		"Icon": "sk_sa072",
+		"Explanation": "自ユニットのアタック+15%/15%/15%/17%/20%/25%、ディフェンス+15%/15%/15%/17%/20%/25%(1/1/2/2/2/2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"幸せになってほしいのら〜！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+15%/15%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"幸せになってほしいのら〜！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2100073": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "天命に従え",
+		"Icon": "sk_sa073",
+		"Explanation": "範囲内の全ての敵ユニットのレジスト-15%/15%/15%/18%/23%/30%、魔法ダメージ耐性-10%/10%/10%/13%/18%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Jamming",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "レジスト-15%/15%/15%/18%/23%/30%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-23",
+					"-30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "魔法ダメージ耐性-10%/10%/10%/13%/18%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え",
+				"天命に従え"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenMagicalResistance",
+					"-10",
+					"-10",
+					"-10",
+					"-13",
+					"-18",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100074": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "舌上でとろける愛",
+		"Icon": "sk_sa074",
+		"Explanation": "範囲内の全ての味方ユニットのアタック+15%/15%/15%/18%/23%/30%、範囲攻撃スキル与ダメージ+15%/15%/15%/18%/23%/30%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+15%/15%/15%/18%/23%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15",
+					"15",
+					"15",
+					"18",
+					"23",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲スキル与ダメージ+15%/15%/15%/18%/23%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛",
+				"舌上でとろける愛"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenRangeDamage",
+					"15",
+					"15",
+					"15",
+					"18",
+					"23",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100075": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "夢魔の女王",
+		"Icon": "sk_sa075",
+		"Explanation": "範囲内の全ての味方ユニットのディフェンス+15%/15%/15%/18%/23%/30%、クリティカル率+10%/10%/10%/13%/18%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス+15%/15%/15%/18%/23%/30%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"15",
+					"15",
+					"15",
+					"18",
+					"23",
+					"30"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "クリティカル率+10%/10%/10%/13%/18%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2",
+				"2"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王",
+				"夢魔の女王"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10",
+					"10",
+					"10",
+					"13",
+					"18",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100076": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "あたしの白酒を飲みなさい！",
+		"Icon": "sk_sa076",
+		"Explanation": "自身から直線範囲7マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍のダメージを与え、ディフェンスｰ15%/15%/15%/18%/21%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Straight",
+			"7",
+			"7",
+			"7",
+			"7",
+			"7",
+			"7"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "自身から直線範囲7マス以内の全ての敵ユニットに0.7/0.7/0.7/0.8/0.9/1倍のダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Straight",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"あたしの白酒を飲みなさい！"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"70",
+					"70",
+					"70",
+					"80",
+					"90",
+					"100"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンスｰ15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Straight",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7",
+				"7"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"あたしの白酒を飲みなさい！"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100077": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "乾杯！ほろ酔い！厄祓い！",
+		"Icon": "sk_sa077",
+		"Explanation": "自ユニットのスキル与ダメージ+12%/12%/15%/17%/20%/25%、ダメージ耐性+12%/12%/15%/17%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "スキル与ダメージ+12%/12%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"乾杯！ほろ酔い！厄祓い！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"12",
+					"12",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+12%/12%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"乾杯！ほろ酔い！厄祓い！"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"12",
+					"12",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100078": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "えっちなのはいけません！",
+		"Icon": "sk_sa078",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットに0.6/0.6/0.6/0.65/0.7/0.75倍の範囲ダメージを与え、ランダムな弱化効果を1個付与する。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "MagicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "0.6/0.6/0.6/0.65/0.7/0.75倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"えっちなのはいけません！"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"60",
+					"60",
+					"60",
+					"65",
+					"70",
+					"75"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ランダムな弱化効果を付与する。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"えっちなのはいけません！"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムデバフ（中）",
+					"1:ランダムデバフ（中）",
+					"1:ランダムデバフ（中）",
+					"1:ランダムデバフ（中）",
+					"1:ランダムデバフ（中）",
+					"1:ランダムデバフ（中）"
+				]
+			}
+		}
+	},
+	"2100079": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "友達作りの第一歩",
+		"Icon": "sk_sa079",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての敵ユニットの強化効果を1個解除し、ディフェンス-15%/15%/15%/18%/21%/25%、物理ダメージ耐性-15%/15%/15%/18%/21%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "強化効果を1個解除する。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Index1": {
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"Buff",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ディフェンス-15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"友達作りの第一歩"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理ダメージ耐性-15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"友達作りの第一歩"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"-15",
+					"-15",
+					"-15",
+					"-18",
+					"-21",
+					"-25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100080": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "アウトサイドベット",
+		"Icon": "sk_sa080",
+		"Explanation": "範囲内の全ての敵ユニットに0.6/0.6/0.6/0.65/0.7/0.75倍の範囲ダメージを与え、物理ダメージ耐性-10%/10%/10%/12%/15%/20%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "PhysicalDamage",
+		"Range": [
+			"Around",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": [
+			"Normal",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2",
+			"2"
+		],
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "範囲内の全ての敵ユニットに0.6/0.6/0.6/0.65/0.7/0.75倍の範囲ダメージを与える。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"アウトサイドベット"
+			],
+			"Index1": {
+				"Effect_Category": "Damage",
+				"Effect_CategoryDetail": [
+					"RangeMagnificationDamage",
+					"60",
+					"60",
+					"60",
+					"65",
+					"70",
+					"75"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理ダメージ耐性-10%/10%/10%/12%/15%/20%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"アウトサイドベット"
+			],
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"-10",
+					"-10",
+					"-10",
+					"-12",
+					"-15",
+					"-20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100081": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "マキシマムベット",
+		"Icon": "sk_sa081",
+		"Explanation": "自身を中心とした範囲3マス以内の全ての味方ユニットの物理与ダメージ+15%/15%/15%/18%/21%/25%、クリティカルダメージ倍率+15%/15%/15%/18%/21%/25%、移動+1(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "物理与ダメージ+15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"マキシマムベット"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalDamage",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "クリティカルダメージ倍率+15%/15%/15%/18%/21%/25%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"マキシマムベット"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenCriticalDamage",
+					"15",
+					"15",
+					"15",
+					"18",
+					"21",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect3": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "移動+1。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3",
+				"3"
+			],
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"マキシマムベット"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2100082": {
+		"Level": "1/2/3/4/5/6",
+		"Name": "正直で健全な賭け",
+		"Icon": "sk_sa082",
+		"Explanation": "自ユニットのアタック+12%/12%/15%/17%/20%/25%、ダメージ耐性+12%/12%/15%/17%/20%/25%(2ターン)。",
+		"SkillType": "SupportActive",
+		"ActiveSkillCategory": "Support",
+		"Range": "MySelf",
+		"ImpactArea": "Single",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "DisplayCutInOnSlg",
+		"ActiveSkillRange": "MySelf",
+		"SupportAbilityTriggerCount": "1",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "アタック+12%/12%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"正直で健全な賭け"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"12",
+					"12",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtUseSkill",
+			"Effect_Explanation": "ダメージ耐性+12%/12%/15%/17%/20%/25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": [
+				"UniqueEffectOnly",
+				"正直で健全な賭け"
+			],
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"12",
+					"12",
+					"15",
+					"17",
+					"20",
+					"25"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	}
+}

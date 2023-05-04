@@ -1,0 +1,108 @@
+.unit-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start; /* align child elements to the top */
+    color:white;
+    height: 20vh;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.hero-data {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    align-items: left;
+    height: 18vh;
+}
+
+.hero-data img {
+    width: 10%;
+    height: 10%;
+    margin-right: 0%;
+    align-items: right;
+}
+
+.hero-detail {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.hero-detail img {
+    display: flex;
+}
+
+.hero-name {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    height: 30%;
+}
+
+.hero-title {
+    display: flex;
+    font-size: 1rem;
+    text-align: left;
+    height: 20%;
+}
+
+.hero-etc2 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    align-items: center;
+}
+
+.hero-etc2 img {
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+}
+  
+.hero-detail1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.extrainfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25%;
+}
+
+.extrainfo img {
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+    width: auto;
+}
+
+.extrainfo p {
+    padding-left: 4%;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+  
+.hero-container img {
+    display: flex;
+  }

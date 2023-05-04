@@ -1,0 +1,202 @@
+
+.skill-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(107, 67, 67, 0.1);
+    width: 98%;
+  }
+
+  .skill-detail img {
+    display: flex;
+  }
+
+  .skill-detail.Active {
+    background-color:rgb(255, 220, 255);
+  }
+
+  .skill-detail.Passive {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .skill-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .skill-name:hover {
+    cursor: pointer;
+    color: blue;
+    border-color: red;
+  }
+
+  .skill-name.select {
+    color: blue;
+    border-color: red;
+    opacity: 1;
+  }
+  
+  .skill-namecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top: 0.5%;
+    align-items: center;
+    width: 98%;
+  }
+
+  .cost-orbs {
+    display: flex;
+    width: 6%;
+    min-width: 60px;
+    margin: 0;
+  }  
+
+  .cost-orbs img {
+    display: flex;
+    max-width: 30%;
+    max-height: auto;
+    min-width: 10px;
+    object-fit: contain;
+  }
+
+  .skill-name {
+    display: flex;
+    font-weight: bold;
+    width: 52%;
+  }
+  
+  .skill-info {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin: 0;
+    justify-content: flex-end;
+  }
+  
+  .skill-info1 {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    margin: 0;
+  }
+
+  .skill-info1 img {
+    display: flex;
+    max-width: 40%;
+    min-width: 20px;
+    object-fit: contain;
+  }
+
+  .skill-info1 text {
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .infotext {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    font-size: 0.75rem;
+  }
+  
+  .skill-description {
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    width: 97%;  
+    color: white;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  
+  
+.talent-detail {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-bottom: 1%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:antiquewhite;
+  box-shadow: 2px 2px 5px rgba(107, 67, 67, 0.1);
+  width: 98%;
+}
+
+
+.talent-image {
+  display: flex;
+  width: 8%;
+  height: auto;
+  min-width: 50px;
+}
+
+.talent-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.talent-namecontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-top: 0.5%;
+  align-items: center;
+  width: 98%;
+}
+
+.talent-name {
+/*   margin: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1; */
+  display: flex;
+  font-weight: bold;
+  width: calc(100% - 15vw);
+}
+
+.talent-info {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+
+.talent-description {
+  background-color: rgb(95, 95, 95);
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  width: 97%;  
+  color: white;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  
+}
+
+.talent-name:hover {
+  cursor: pointer;
+  color: blue;
+  border-color: red;
+}
+
+.talent-name.select {
+  color: blue;
+  border-color: red;
+  opacity: 1;
+}

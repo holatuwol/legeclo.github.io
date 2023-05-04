@@ -1,0 +1,3071 @@
+{
+	"2200001": {
+		"Level": "1",
+		"Name": "剛気",
+		"Icon": "sk_sp1001",
+		"Explanation": "自ユニットのアタック+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				]
+			}
+		}
+	},
+	"2200002": {
+		"Level": "1",
+		"Name": "奮迅",
+		"Icon": "sk_sp1002",
+		"Explanation": "自ユニットのスキル与ダメージ+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "スキル与ダメージ+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"5"
+				]
+			}
+		}
+	},
+	"2200003": {
+		"Level": "1",
+		"Name": "堅守",
+		"Icon": "sk_sp1003",
+		"Explanation": "自ユニットのディフェンス+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "ディフェンス+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				]
+			}
+		}
+	},
+	"2200004": {
+		"Level": "1",
+		"Name": "治術",
+		"Icon": "sk_sp1004",
+		"Explanation": "自ユニットの治療効果+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "治療効果+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenRecoveryAmount",
+					"5"
+				]
+			}
+		}
+	},
+	"2200005": {
+		"Level": "1",
+		"Name": "魔性",
+		"Icon": "sk_sp1005",
+		"Explanation": "自ユニットのマジック+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "マジック+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"5"
+				]
+			}
+		}
+	},
+	"2200006": {
+		"Level": "1",
+		"Name": "集中",
+		"Icon": "sk_sp1006",
+		"Explanation": "自ユニットのクリティカル率+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "クリティカル率+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"5"
+				]
+			}
+		}
+	},
+	"2200007": {
+		"Level": "1",
+		"Name": "強靭",
+		"Icon": "sk_sp1007",
+		"Explanation": "自ユニットの最大HP+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "最大HP+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"5"
+				]
+			}
+		}
+	},
+	"2200008": {
+		"Level": "1",
+		"Name": "迅速",
+		"Icon": "sk_sp1008",
+		"Explanation": "自ユニットの移動+1。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "移動+1。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"1"
+				]
+			}
+		}
+	},
+	"2300001": {
+		"Level": "1",
+		"Name": "八塩折之酒",
+		"Icon": "sk_sp2001",
+		"Explanation": "戦闘で敵ユニットを倒した時、自ユニットのアタック+5%(2ターン/最大4回まで重複可能)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "アタック+5%(最大4回まで重複可能)。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_Action": "KillOpponent",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			}
+		}
+	},
+	"2300002": {
+		"Level": "1",
+		"Name": "青春のプロミネンス",
+		"Icon": "sk_sp2002",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットの与ダメージ+20%/ダメージ耐性+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "与ダメージ+20%/ダメージ耐性+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"20"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"10"
+				]
+			}
+		}
+	},
+	"2300003": {
+		"Level": "1",
+		"Name": "破壊と創造の舞踊",
+		"Icon": "sk_sp2003",
+		"Explanation": "敵ターンでの戦闘時、その戦闘前、自ユニットのアタック/ディフェンス+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/ディフェンス+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "InterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300004": {
+		"Level": "1",
+		"Name": "魔槍戦神",
+		"Icon": "sk_sp2004",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのディフェンス/レジスト+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ディフェンス/レジスト+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300005": {
+		"Level": "1",
+		"Name": "魂の安寧",
+		"Icon": "sk_sp2005",
+		"Explanation": "行動終了時、自身を中心とした範囲2マス以内の味方ユニットのHPをサポートのマジックの1.5倍回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"None",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "行動終了時、自身を中心とした範囲2マス以内の味方ユニットのHPをサポートのマジックの1.5倍回復する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"Support_MagicAttack",
+					"150"
+				]
+			}
+		}
+	},
+	"2300006": {
+		"Level": "1",
+		"Name": "女禍造呪",
+		"Icon": "sk_sp2006",
+		"Explanation": "味方ターンでの戦闘時、その戦闘後、敵ユニットにランダムな弱化効果を1個付与する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "ランダムな弱化効果を1個付与する。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムデバフ（弱）"
+				]
+			}
+		}
+	},
+	"2300007": {
+		"Level": "1",
+		"Name": "射抜くは銀影の矢",
+		"Icon": "sk_sp2007",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、メインのクリティカル率+15%/サポートのダメージ耐性+30%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "メインのクリティカル率+15%/サポートのダメージ耐性+30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Main",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"15"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Support",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"30"
+				]
+			}
+		}
+	},
+	"2300008": {
+		"Level": "1",
+		"Name": "太陽神の後光",
+		"Icon": "sk_sp2008",
+		"Explanation": "行動終了時、自身を中心とした範囲2マス以内の味方ユニット1隊にランダムな強化効果を1個付与する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "ランダムな強化効果を1個付与する。",
+			"Effect_Target": [
+				"Ally_NUnit",
+				"1"
+			],
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムバフ（弱）"
+				]
+			}
+		}
+	},
+	"2300009": {
+		"Level": "1",
+		"Name": "最強ですから！",
+		"Icon": "sk_sp2009",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのアタック+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			}
+		}
+	},
+	"2300010": {
+		"Level": "1",
+		"Name": "ロキの悪戯",
+		"Icon": "sk_sp2010",
+		"Explanation": "自ユニットのHPが80%以上の時、自ユニットのレジスト+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "レジスト+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"80"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"15"
+				]
+			}
+		}
+	},
+	"2300011": {
+		"Level": "1",
+		"Name": "北方聖獣",
+		"Icon": "sk_sp2011",
+		"Explanation": "戦闘で敵ユニットを倒した時、自ユニットのアタック+5%(2ターン/最大4回まで重複可能)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "アタック+5%(最大4回まで重複可能)。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_Action": "KillOpponent",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			}
+		}
+	},
+	"2300012": {
+		"Level": "1",
+		"Name": "快速クマラ号",
+		"Icon": "sk_sp2012",
+		"Explanation": "自ユニットの移動+1。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "移動+1。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MovingValue",
+					"1"
+				]
+			}
+		}
+	},
+	"2300013": {
+		"Level": "1",
+		"Name": "大天使の意地",
+		"Icon": "sk_sp2013",
+		"Explanation": "自ユニットの治療効果+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "治療効果+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenRecoveryAmount",
+					"15"
+				]
+			}
+		}
+	},
+	"2300014": {
+		"Level": "1",
+		"Name": "ザヴィーラの進言",
+		"Icon": "sk_sp2014",
+		"Explanation": "自ユニットの範囲スキル与ダメージ+15%",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "範囲スキル与ダメージ+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenRangeDamage",
+					"15"
+				]
+			}
+		}
+	},
+	"2300015": {
+		"Level": "1",
+		"Name": "無貌",
+		"Icon": "sk_sp2015",
+		"Explanation": "自ユニットのスキル与ダメージ+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "スキル与ダメージ+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"15"
+				]
+			}
+		}
+	},
+	"2300016": {
+		"Level": "1",
+		"Name": "大天使の仁愛",
+		"Icon": "sk_sp2016",
+		"Explanation": "戦闘後、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "戦闘後、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"10"
+				]
+			}
+		}
+	},
+	"2300017": {
+		"Level": "1",
+		"Name": "矢避けの定石",
+		"Icon": "sk_sp2017",
+		"Explanation": "敵ターンで遠距離による戦闘時、自ユニットのダメージ耐性+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ダメージ耐性+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndInterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"15"
+				]
+			}
+		}
+	},
+	"2300018": {
+		"Level": "1",
+		"Name": "西方聖獣",
+		"Icon": "sk_sp2018",
+		"Explanation": "自ユニットのクリティカルダメージ倍率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "クリティカルダメージ倍率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenCriticalDamage",
+					"10"
+				]
+			}
+		}
+	},
+	"2300019": {
+		"Level": "1",
+		"Name": "正義の炎",
+		"Icon": "sk_sp2019",
+		"Explanation": "自ユニットの与ダメージ+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "与ダメージ+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"10"
+				]
+			}
+		}
+	},
+	"2300020": {
+		"Level": "1",
+		"Name": "商売繁盛の秘訣",
+		"Icon": "sk_sp2020",
+		"Explanation": "近距離による戦闘時、自ユニットのダメージ耐性+10%",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ダメージ耐性+10%",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"10"
+				]
+			}
+		}
+	},
+	"2300021": {
+		"Level": "1",
+		"Name": "キャットウォーク",
+		"Icon": "sk_sp2021",
+		"Explanation": "味方ターンでの戦闘時、自ユニットのディフェンス+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ディフェンス+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300022": {
+		"Level": "1",
+		"Name": "海のアイドル",
+		"Icon": "sk_sp2022",
+		"Explanation": "自ユニットのアタック/ディフェンス+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック/ディフェンス+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				]
+			}
+		}
+	},
+	"2300023": {
+		"Level": "1",
+		"Name": "湖上のワルツ",
+		"Icon": "sk_sp2023",
+		"Explanation": "自ユニットのレジスト+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "レジスト+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300024": {
+		"Level": "1",
+		"Name": "蕗葉の傘",
+		"Icon": "sk_sp2024",
+		"Explanation": "自ユニットのレジスト+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "レジスト+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300025": {
+		"Level": "1",
+		"Name": "メイドの心得",
+		"Icon": "sk_sp2025",
+		"Explanation": "自ユニットのマジック+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "マジック+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"10"
+				]
+			}
+		}
+	},
+	"2300026": {
+		"Level": "1",
+		"Name": "恋に一直線",
+		"Icon": "sk_sp2026",
+		"Explanation": "自ユニットのクリティカル率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "クリティカル率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10"
+				]
+			}
+		}
+	},
+	"2300027": {
+		"Level": "1",
+		"Name": "酩酊白翼",
+		"Icon": "sk_sp2027",
+		"Explanation": "自ユニットのレジスト+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "レジスト+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300028": {
+		"Level": "1",
+		"Name": "水底への誘い",
+		"Icon": "sk_sp2028",
+		"Explanation": "自ユニットのクリティカル率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "クリティカル率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10"
+				]
+			}
+		}
+	},
+	"2300029": {
+		"Level": "1",
+		"Name": "東方聖獣",
+		"Icon": "sk_sp2029",
+		"Explanation": "味方ターンで遠距離による戦闘時、自ユニットのマジック+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "マジック+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndAttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"10"
+				]
+			}
+		}
+	},
+	"2300030": {
+		"Level": "1",
+		"Name": "ルナトス",
+		"Icon": "sk_sp2030",
+		"Explanation": "行動終了時、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "行動終了時、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"10"
+				]
+			}
+		}
+	},
+	"2300031": {
+		"Level": "1",
+		"Name": "ヘルフィヨトゥルの祝聖",
+		"Icon": "sk_sp2031",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、敵ユニットのアタック/マジック-10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/マジック-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"-10"
+				]
+			}
+		}
+	},
+	"2300032": {
+		"Level": "1",
+		"Name": "月光夜曲",
+		"Icon": "sk_sp2032",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのアタック+20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"20"
+				]
+			}
+		}
+	},
+	"2300033": {
+		"Level": "1",
+		"Name": "厄災の魔法使い",
+		"Icon": "sk_sp2034",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットのマジック+20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "マジック+20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"20"
+				]
+			}
+		}
+	},
+	"2300034": {
+		"Level": "1",
+		"Name": "死者の聖別",
+		"Icon": "sk_sp2035",
+		"Explanation": "行動終了時、現在HP割合が最も低い味方ユニットのHPを最大HPの10%分回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "HPを10%分回復。",
+			"Effect_Target": "Ally_All",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_TargetFilter": "LowestHpRate",
+				"Effect_DirectinType": "NameOnly",
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"10"
+				]
+			}
+		}
+	},
+	"2300035": {
+		"Level": "1",
+		"Name": "最カワですから！",
+		"Icon": "sk_sp2036",
+		"Explanation": "行動終了時、自身を中心とした範囲2マス以内の敵ユニットのダメージ耐性-10%(2ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"None",
+			"2"
+		],
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "ダメージ耐性-10%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"-10"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2300036": {
+		"Level": "1",
+		"Name": "クリスマスの決意",
+		"Icon": "sk_sp2037",
+		"Explanation": "行動終了時、自ユニットにランダムな強化効果を1個付与。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "ランダムな強化効果を1個付与する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"Random",
+					"1:ランダムバフ（弱）"
+				]
+			}
+		}
+	},
+	"2300037": {
+		"Level": "1",
+		"Name": "正しき月に反しても",
+		"Icon": "sk_sp2038",
+		"Explanation": "敵ターンでの戦闘時、その戦闘前、自ユニットの最大HP以外の全ステータス+5%(2ターン/最大4回まで重複可能)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "最大HP以外の全ステータス+5%(最大4回まで重複可能)。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "InterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			},
+			"Index3": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			},
+			"Index4": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			},
+			"Index5": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"Technique",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			}
+		}
+	},
+	"2300038": {
+		"Level": "1",
+		"Name": "はらぺこ精霊",
+		"Icon": "sk_sp2039",
+		"Explanation": "敵ターンで遠距離による戦闘時、その戦闘前、自ユニットのディフェンス/レジスト+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ディフェンス/レジスト+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndInterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300039": {
+		"Level": "1",
+		"Name": "妙智の力",
+		"Icon": "sk_sp2040",
+		"Explanation": "近距離による戦闘時、その戦闘前、自ユニットのアタック+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "ShortRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			}
+		}
+	},
+	"2300040": {
+		"Level": "1",
+		"Name": "愛がための自縛",
+		"Icon": "sk_sp2041",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットの物理与ダメージ+15%/物理ダメージ耐性+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "物理与ダメージ/物理ダメージ耐性+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalDamage",
+					"15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"15"
+				]
+			}
+		}
+	},
+	"2300041": {
+		"Level": "1",
+		"Name": "陽光の恵み",
+		"Icon": "sk_sp2042",
+		"Explanation": "行動終了時、自身を中心とした範囲2マス以内の全ての味方ユニットのスキル与ダメージ+20%(2ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "スキル与ダメージ+20%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"20"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2300042": {
+		"Level": "1",
+		"Name": "勝利への鼓舞",
+		"Icon": "sk_sp2043",
+		"Explanation": "近距離による戦闘時、その戦闘前、自ユニットのアタック/ディフェンス+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/ディフェンス+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "ShortRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300043": {
+		"Level": "1",
+		"Name": "こっち見ないで！",
+		"Icon": "sk_sp2044",
+		"Explanation": "敵ターンでの戦闘時、その戦闘前、自ユニットの物理ダメージ耐性+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "物理ダメージ耐性+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "InterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"15"
+				]
+			}
+		}
+	},
+	"2300044": {
+		"Level": "1",
+		"Name": "酒宴の始まり",
+		"Icon": "sk_sp2045",
+		"Explanation": "遠距離による戦闘時、その戦闘前、自ユニットのクリティカルダメージ倍率+25%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "クリティカルダメージ倍率+25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenCriticalDamage",
+					"25"
+				]
+			}
+		}
+	},
+	"2300045": {
+		"Level": "1",
+		"Name": "場を和ませるMC",
+		"Icon": "sk_sp2046",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットの弱化効果を1個解除し、その戦闘後、自ユニットのメイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "弱化効果を1個解除する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Delete",
+				"Effect_CategoryDetail": [
+					"DeBuff",
+					"1"
+				]
+			},
+			"Index2": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide"
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "メイン、サポートそれぞれのHPが最大HPの10%分回復する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"10"
+				]
+			},
+			"Index2": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide"
+			}
+		}
+	},
+	"2300046": {
+		"Level": "1",
+		"Name": "会場の端まで響け",
+		"Icon": "sk_sp2047",
+		"Explanation": "味方ターンで遠距離による戦闘時、その戦闘前、自ユニットのスキル与ダメージ+30%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "スキル与ダメージ+30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndAttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"30"
+				]
+			}
+		}
+	},
+	"2300047": {
+		"Level": "1",
+		"Name": "そんな声じゃ届かない",
+		"Icon": "sk_sp2048",
+		"Explanation": "敵ターンで遠距離による戦闘時、自ユニットのダメージ耐性+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ダメージ耐性+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndInterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"10"
+				]
+			}
+		}
+	},
+	"2300048": {
+		"Level": "1",
+		"Name": "戦い続ける運命",
+		"Icon": "sk_sp2049",
+		"Explanation": "近距離での戦闘時、その戦闘後、味方メインが与えたダメージの10%分HPを回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "味方メインが与えたダメージの10%分HPを回復する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"GivenDamageByMain",
+					"10"
+				]
+			},
+			"Index2": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "ShortRange"
+			}
+		}
+	},
+	"2300049": {
+		"Level": "1",
+		"Name": "掃き溜めの天使",
+		"Icon": "sk_sp2050",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットの与ダメージ+25%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "与ダメージ+25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"25"
+				]
+			}
+		}
+	},
+	"2300050": {
+		"Level": "1",
+		"Name": "樹よ、花よ",
+		"Icon": "sk_sp2051",
+		"Explanation": "敵ターンで遠距離による戦闘時、その戦闘前、敵ユニットの与ダメージ-10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "与ダメージ-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRangeAndInterceptSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"-10"
+				]
+			}
+		}
+	},
+	"2300051": {
+		"Level": "1",
+		"Name": "祝福の呪い",
+		"Icon": "sk_sp2052",
+		"Explanation": "行動終了時、自身を中心とした範囲3マス以内の全ての敵ユニットのディフェンス/レジスト-10%(2ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": [
+			"Around",
+			"3"
+		],
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "ディフェンス/レジスト-10%。",
+			"Effect_Target": "Enemy_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"3"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10"
+				],
+				"Effect_PersistentActionCount": "2"
+			},
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10"
+				],
+				"Effect_PersistentActionCount": "2"
+			}
+		}
+	},
+	"2300052": {
+		"Level": "1",
+		"Name": "天の川のこちらから",
+		"Icon": "sk_sp2053",
+		"Explanation": "遠距離による戦闘時、その戦闘前、自ユニットの与ダメージ+20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "与ダメージ+20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"20"
+				]
+			}
+		}
+	},
+	"2300053": {
+		"Level": "1",
+		"Name": "南方聖獣",
+		"Icon": "sk_sp2033",
+		"Explanation": "自ユニットのスキル与ダメージ+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "スキル与ダメージ+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"15"
+				]
+			}
+		}
+	},
+	"2300054": {
+		"Level": "1",
+		"Name": "逃れられぬ災厄",
+		"Icon": "sk_sp2054",
+		"Explanation": "戦闘前、敵ユニットの魔法ダメージ耐性-20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "魔法ダメージ耐性-20%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenMagicalResistance",
+					"-20"
+				]
+			}
+		}
+	},
+	"2300055": {
+		"Level": "1",
+		"Name": "夏！海！水着の天使！",
+		"Icon": "sk_sp2055",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのアタック/クリティカル率+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/クリティカル率+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"15"
+				]
+			}
+		}
+	},
+	"2300056": {
+		"Level": "1",
+		"Name": "常夏の夢",
+		"Icon": "sk_sp2056",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットの与ダメージ+5%/クリティカル率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "与ダメージ+5%/クリティカル率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"5"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10"
+				]
+			}
+		}
+	},
+	"2300057": {
+		"Level": "1",
+		"Name": "オレの女に手は出させない",
+		"Icon": "sk_sp2057",
+		"Explanation": "自ユニットのHPが75%以上の時、自ユニットのアタック+15%。\n自ユニットのHPが75%以下の時、自ユニットのダメージ耐性+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"75"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "ダメージ耐性+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateUnderNPer",
+					"75"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"15"
+				]
+			}
+		}
+	},
+	"2300058": {
+		"Level": "1",
+		"Name": "鉄壁の清楚",
+		"Icon": "sk_sp2058",
+		"Explanation": "行動終了時、自身を中心とした範囲2マス以内の全ての味方ユニットのディフェンス/レジスト+5%(1ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "ディフェンス/レジスト+5%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				],
+				"Effect_PersistentActionCount": "1"
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"5"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2300059": {
+		"Level": "1",
+		"Name": "破壊神すら制する母性",
+		"Icon": "sk_sp2059",
+		"Explanation": "戦闘前、自ユニットのアタック/ディフェンス+5%(2ターン/最大4回まで重複可能)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/ディフェンス+5%(最大4回まで重複可能)。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				],
+				"Effect_PersistentActionCount": "2",
+				"Effect_Duplicate": [
+					"Count",
+					"4"
+				]
+			}
+		}
+	},
+	"2300060": {
+		"Level": "1",
+		"Name": "冥府の呪縛",
+		"Icon": "sk_sp2060",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、敵ユニットのディフェンス/物理ダメージ耐性-10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ディフェンス/物理ダメージ耐性-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalResistance",
+					"-10"
+				]
+			}
+		}
+	},
+	"2300061": {
+		"Level": "1",
+		"Name": "お菓子はたっぷり、準備万端！",
+		"Icon": "sk_sp2061",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットのスキル与ダメージ+30%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "スキル与ダメージ+30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"30"
+				]
+			}
+		}
+	},
+	"2300062": {
+		"Level": "1",
+		"Name": "パンプキン・ブロック",
+		"Icon": "sk_sp2062",
+		"Explanation": "味方ターンでの戦闘時、その戦闘後、敵ユニットの与ダメージ-10%(1ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "与ダメージ-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"-10"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2300063": {
+		"Level": "1",
+		"Name": "賑やかな酒宴",
+		"Icon": "sk_sp2063",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、敵ユニットのダメージ耐性-10%。\n行動終了時、自身を中心とした範囲2マス以内の全ての味方ユニットのメイン、サポートそれぞれのHPが最大HPの8%分回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "ダメージ耐性-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenResistance",
+					"-10"
+				]
+			}
+		},
+		"Effect2": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "行動終了時、自身を中心とした範囲2マス以内の全ての味方ユニットのメイン、サポートそれぞれのHPが最大HPの8%分回復する。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Around",
+				"2"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"MaxHp",
+					"8"
+				]
+			}
+		}
+	},
+	"2300064": {
+		"Level": "1",
+		"Name": "女神の義憤",
+		"Icon": "sk_sp2064",
+		"Explanation": "敵ターンでの戦闘時、その戦闘前、敵ユニットのアタック/ディフェンス-15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/ディフェンス-15%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "InterceptSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"-15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"-15"
+				]
+			}
+		}
+	},
+	"2300065": {
+		"Level": "1",
+		"Name": "聖春！クリスマス！",
+		"Icon": "sk_sp2065",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットの物理与ダメージ+30%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "物理与ダメージ+30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenPhysicalDamage",
+					"30"
+				]
+			}
+		}
+	},
+	"2300066": {
+		"Level": "1",
+		"Name": "混沌蠢く聖夜",
+		"Icon": "sk_sp2066",
+		"Explanation": "自ユニットのHPが80%以上の時、自ユニットのアタック/ディフェンス+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック/ディフェンス+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"80"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"10"
+				]
+			}
+		}
+	},
+	"2300067": {
+		"Level": "1",
+		"Name": "妹はサンタクロース",
+		"Icon": "sk_sp2067",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットの与ダメージ+25%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "与ダメージ+25%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"25"
+				]
+			}
+		}
+	},
+	"2300068": {
+		"Level": "1",
+		"Name": "刺激的なプレゼント",
+		"Icon": "sk_sp2068",
+		"Explanation": "行動終了時、自身を中心とした周囲1マス以内の全ての味方ユニットの与ダメージ+10%(1ターン)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndAction",
+			"Effect_Explanation": "与ダメージ+10%。",
+			"Effect_Target": "Ally_Range",
+			"Effect_DetailTarget": "Unit",
+			"Effect_ImpactArea": [
+				"Square",
+				"1"
+			],
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenDamage",
+					"10"
+				],
+				"Effect_PersistentActionCount": "1"
+			}
+		}
+	},
+	"2300069": {
+		"Level": "1",
+		"Name": "いざ、うさぎさんと共に",
+		"Icon": "sk_sp2069",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのアタック+15%/スキル与ダメージ+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+15%/スキル与ダメージ+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"15"
+				]
+			}
+		}
+	},
+	"2300070": {
+		"Level": "1",
+		"Name": "闊達態度",
+		"Icon": "sk_sp2070",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのアタック+10%/ディフェンス+5%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+10%/ディフェンス+5%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalDefence",
+					"5"
+				]
+			}
+		}
+	},
+	"2300071": {
+		"Level": "1",
+		"Name": "怒りの母神",
+		"Icon": "sk_sp2071",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、自ユニットのマジック+20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "マジック+20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"MagicalAttack",
+					"20"
+				]
+			}
+		}
+	},
+	"2300072": {
+		"Level": "1",
+		"Name": "小さな幸せ",
+		"Icon": "sk_sp2072",
+		"Explanation": "敵ターンでの近距離による戦闘時、その戦闘前、自ユニットのアタック+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "InterceptSide",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			},
+			"Index2": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "ShortRange"
+			}
+		}
+	},
+	"2300073": {
+		"Level": "1",
+		"Name": "王の守護者",
+		"Icon": "sk_sp2073",
+		"Explanation": "遠距離による戦闘時、その戦闘前、自ユニットの魔法与ダメージ+30%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "魔法与ダメージ+30%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenMagicalDamage",
+					"30"
+				]
+			}
+		}
+	},
+	"2300074": {
+		"Level": "1",
+		"Name": "甘々おでかけモード",
+		"Icon": "sk_sp2074",
+		"Explanation": "自ユニットのHPが80%以上の時、自ユニットのスキル与ダメージ+20%/クリティカル率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "スキル与ダメージ+20%/クリティカル率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"80"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenSkillDamage",
+					"20"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"10"
+				]
+			}
+		}
+	},
+	"2300075": {
+		"Level": "1",
+		"Name": "とっておきの一杯",
+		"Icon": "sk_sp2075",
+		"Explanation": "近距離による戦闘時、その戦闘前、自ユニットのクリティカル率/クリティカルダメージ倍率+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "クリティカル率/クリティカルダメージ倍率+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "ShortRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenCriticalDamage",
+					"15"
+				]
+			}
+		}
+	},
+	"2300076": {
+		"Level": "1",
+		"Name": "白無垢お雛様",
+		"Icon": "sk_sp2076",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットのアタック/クリティカル率+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック/クリティカル率+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"15"
+				]
+			}
+		}
+	},
+	"2300077": {
+		"Level": "1",
+		"Name": "乙女の祝い酒",
+		"Icon": "sk_sp2077",
+		"Explanation": "自ユニットのHPが100%の時、自ユニットのアタック+15%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "アタック+15%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"100"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"15"
+				]
+			}
+		}
+	},
+	"2300078": {
+		"Level": "1",
+		"Name": "正義の魔法使い",
+		"Icon": "sk_sp2078",
+		"Explanation": "味方ターンでの戦闘時、その戦闘前、敵ユニットのレジスト/魔法ダメージ耐性-10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "レジスト/魔法ダメージ耐性-10%。",
+			"Effect_Target": "Enemy_Single",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "AttackSide",
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"MagicalDefence",
+					"-10"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "DeBuff",
+				"Effect_CategoryDetail": [
+					"GivenMagicalResistance",
+					"-10"
+				]
+			}
+		}
+	},
+	"2300079": {
+		"Level": "1",
+		"Name": "失われた青春を求めて",
+		"Icon": "sk_sp2079",
+		"Explanation": "自ユニットのHPが80%以上の時、自ユニットの通常攻撃与ダメージ+20%/クリティカルダメージ倍率+10%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "Eternity",
+			"Effect_Explanation": "通常攻撃与ダメージ+20%/クリティカルダメージ倍率+10%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_Percentage": [
+					"HpRateOverNPer",
+					"80"
+				],
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenNormalAttackDamage",
+					"20"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"GivenCriticalDamage",
+					"10"
+				]
+			}
+		}
+	},
+	"2300080": {
+		"Level": "1",
+		"Name": "天然のギャンブラー",
+		"Icon": "sk_sp2080",
+		"Explanation": "戦闘前、自ユニットのアタック/クリティカル率+8%(3ターン/最大3回まで重複可能)。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "None",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック/クリティカル率+8%(最大3回まで重複可能)。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "JoinBattle",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"8"
+				],
+				"Effect_PersistentActionCount": "3",
+				"Effect_Duplicate": [
+					"Count",
+					"3"
+				]
+			},
+			"Index2": {
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"CriticalRate",
+					"8"
+				],
+				"Effect_PersistentActionCount": "3",
+				"Effect_Duplicate": [
+					"Count",
+					"3"
+				]
+			}
+		}
+	},
+	"2300081": {
+		"Level": "1",
+		"Name": "レイズ・アンド・レイズ！",
+		"Icon": "sk_sp2081",
+		"Explanation": "遠距離による戦闘時、その戦闘前、自ユニットのアタック+20%。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtConfirmAttack",
+			"Effect_Explanation": "アタック+20%。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRange",
+				"Effect_Category": "Buff",
+				"Effect_CategoryDetail": [
+					"PhysicalAttack",
+					"20"
+				]
+			}
+		}
+	},
+	"2300082": {
+		"Level": "1",
+		"Name": "バニー給仕の奉仕",
+		"Icon": "sk_sp2082",
+		"Explanation": "遠距離による戦闘時、その戦闘後、味方メインが与えたダメージの10%分HPを回復する。",
+		"SkillType": "SupportPassive",
+		"ActiveSkillCategory": "None",
+		"Range": "MySelf",
+		"ImpactArea": "None",
+		"CoolTime": "",
+		"Cost": "1",
+		"SettingFlag": "None",
+		"ActiveSkillRange": "None",
+		"Effect1": {
+			"Effect_ActivationTiming": "AtEndBattle",
+			"Effect_Explanation": "味方メインが与えたダメージの10%分HPを回復する。",
+			"Effect_Target": "MySelf",
+			"Effect_DetailTarget": "Unit",
+			"Effect_DirectinType": "NameOnly",
+			"Index1": {
+				"GrantedCondition_Target": "MySelf",
+				"GrantedCondition_DetailTarget": "Unit",
+				"GrantedCondition_BattleType": "LongRange",
+				"Effect_Category": "Heal",
+				"Effect_CategoryDetail": [
+					"GivenDamageByMain",
+					"10"
+				]
+			}
+		}
+	}
+}
